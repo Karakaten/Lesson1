@@ -26,5 +26,10 @@ public class Student {
 
     public void setGrade(int grade) {
         this.grade = grade;
+
+    }
+
+    public String out() {
+        return "Журнал:" + "\n" + getFirstName() + " " + getSecondName() + " " + getGrade();
     }
 }

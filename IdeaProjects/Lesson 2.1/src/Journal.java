@@ -1,7 +1,5 @@
-public class Journal extends Student{
+public class Journal {
 
-    public String out() {
-        return "Журнал:" + "\n" + getFirstName() + " " + getSecondName() + " " + getGrade();
-    }
+    //Дописать функцию, которая складирует все имена и фамилии
 
 }
