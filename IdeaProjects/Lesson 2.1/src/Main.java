@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Student student = new Student();
-
+        Journal journal = new Journal();
 
         while (true) {
             System.out.println("Введите имя ученика");
-            student.setFirstName(scanner.next());
+            student.setFirstName(scanner.nextLine());
             System.out.println("Введите фамилию ученика");
-            student.setSecondName(scanner.next());
+            student.setSecondName(scanner.nextLine());
             System.out.println("Введите оценку за четверть");
             student.setGrade(scanner.nextInt());
             System.out.println("Нажмите Завершить, чтобы выйти из программы. Чтобы продолжить – введите любой символ");
@@ -20,6 +20,6 @@ public class Main {
             }
         }
 
-        System.out.println(student.out());
+        journal.exit();
     }
 }

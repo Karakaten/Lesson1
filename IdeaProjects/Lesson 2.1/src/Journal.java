@@ -1,5 +1,12 @@
 public class Journal {
+     public String journal() {
+         Student student = new Student();
+         String global = "";
+         global += student.out();
+         return global;
+    }
 
-    //Дописать функцию, которая складирует все имена и фамилии
-
+    public void exit() {
+        System.out.println("Журнал " + "\n" + journal());
+    }
 }

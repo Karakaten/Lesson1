@@ -30,6 +30,6 @@ public class Student {
     }
 
     public String out() {
-        return "Журнал:" + "\n" + getFirstName() + " " + getSecondName() + " " + getGrade();
+        return getFirstName() + " " + getSecondName() + " " + getGrade();
     }
 }
